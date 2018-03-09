@@ -3,4 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-ReactDOM.render(<App data={data} />, document.getElementById("root"));
+const data = {
+  counters: 5
+};
+
+ReactDOM.render(<App />, document.getElementById("root"));
