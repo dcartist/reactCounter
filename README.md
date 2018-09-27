@@ -7,6 +7,7 @@ To get started:
 ```sh
 git clone git@git.generalassemb.ly:ga-wdi-exercises/react-counters.git
 cd react-counters
+git checkout starter
 npm install
 npm run start
 ```
