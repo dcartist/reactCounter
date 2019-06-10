@@ -3,6 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.App {
+  max-width: 800px;
+  margin: auto;
+}
 
 header {
   text-align: center;
