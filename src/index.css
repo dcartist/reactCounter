@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: rgb(56, 56, 56);
+}
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .App {
   max-width: 800px;
@@ -23,4 +28,9 @@ header {
 .Counter {
   display: inline-block;
   min-width: 30%;
+  background-color: white;
+  margin: 10px;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 10px 10px 10px black;
 }

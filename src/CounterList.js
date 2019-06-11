@@ -9,7 +9,7 @@ class CounterList extends Component {
 list.push(<Counter key={i}/>)
     }
         return (
-            <div>
+            <div className="Counter-row">
                 {list}
             </div>
         );

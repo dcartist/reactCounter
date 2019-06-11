@@ -24,7 +24,7 @@ class Counter extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="Counter">
                 <h4> Counter : {this.state.count}</h4>
                 <button onClick={this.increaseCount}> + </button>
                 <button onClick={this.in100Count}> ++ </button>
