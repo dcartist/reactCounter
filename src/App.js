@@ -6,15 +6,15 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      numOfCounters: 5
+    numOfCounters: 5
     }
   }
 addCounter = () => {
-this.setState({numOfCounters: this.numOfCounters + 1})
+this.setState({numOfCounters: this.state.numOfCounters + 1})
 }
 removeCounter = () => {
-  if(this.state.counters > 0){
-    this.setState({numOfCounters: this.numOfCounters - 1 })
+  if(this.state.numOfCounters > 0){
+    this.setState({numOfCounters: this.state.numOfCounters - 1 })
   }
 }
 
